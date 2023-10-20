@@ -1,5 +1,5 @@
 # WirelessMotorControl
-Wireless motor control system for opening gates, blinds or turning solar panels
+Wireless Motor Control System for turning security cameras, opening gates, blinds or solar panels
 
 ## Description
 
