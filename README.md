@@ -25,10 +25,6 @@ The system controls both standard electrical equipment in on/off mode and moveme
     - 2.2 kW AC (220 V, 10A)
     - 300 W DC (30 V, 10A)
 
-## Description
-
-## Technical characteristics
-
 ## Wiring diagram
 
 ![Wiring diagram for main components](https://github.com/Brabn/WirelessMotorControl/blob/main/Wiring_diagram/WirelessMotorControl.Wiring_diagram.jpg)
