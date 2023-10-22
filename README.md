@@ -8,11 +8,14 @@ To ensure convenient control without the need to accurately point the remote con
 The system controls both standard electrical equipment in on/off mode and movement/turning (using an electric motor)
 
 ## Functions
-1. Control of average power (<2 kW AC, <300 W DC) equipment in on/off mode (ventilation, lighting, backlight etc.).
+1. Control of average power (<2 kW AC, <300 W DC) equipment in on/off mode (ventilation, lighting, backlight etc.)
+   
    By pressing a button on the remote control, the consumer power relay is turned on. Pressing the same button again turns off the consumer
    
 1. Control of a DC motor that opens gates, blinds, rotates CCTV cameras, floodlights or rotates solar panels. Pressing a button on the remote control enables movement in one direction.
+2. 
 The movement continues as long as the button is pressed. The second button provides movement in the opposite direction. Pressing two buttons at the same time will block movement.
+
 In the extreme position of the rotary mechanism, limit switches (mechanical, capacitive or other type) are installed; they block movement in corresponding direction after reaching the extreme positions.
 
 ## System parameters:
@@ -31,11 +34,29 @@ In the extreme position of the rotary mechanism, limit switches (mechanical, cap
 * Relay power			
     - 2.2 kW AC (220 V, 10A)
     - 300 W DC (30 V, 10A)
+* Power supply
+    - 9-12V – controller
+    - 32V – Motor
+    - 30V DC , 220/120V AC – Controlled loads
+
+## Components
+* Controller Arduino UNO 
+* 2 channel ralay 
+* IR-reciever VS1838B – 2 pcs
+* IR Remote Control Kit with 17-Key Controller 
+* Motor controller L298N
+* Limit switches – 2pcs
 
 ## Wiring diagram
 
 ![Wiring diagram for main components](https://github.com/Brabn/WirelessMotorControl/blob/main/Wiring_diagram/WirelessMotorControl.Wiring_diagram.jpg)
 
-## Components
+## Further development of the system
+* Adding additianl channels (additional motor and up to 10 controlled loads)
+* Adding sound effects for feedback
+* Connection to Smart home network
+* Remote control of system:
+    - From mobile devices (by mobile application via Bluetooth)
+    - Web interface
+    - Control via mobile network (SMS-informing and control commands)
 
-## Photos
