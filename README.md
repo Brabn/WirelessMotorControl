@@ -13,10 +13,10 @@ The system controls both standard electrical equipment in on/off mode and moveme
    By pressing a button on the remote control, the consumer power relay is turned on. Pressing the same button again turns off the consumer
    
 1. Control of a DC motor that opens gates, blinds, rotates CCTV cameras, floodlights or rotates solar panels. Pressing a button on the remote control enables movement in one direction.
-2. 
-The movement continues as long as the button is pressed. The second button provides movement in the opposite direction. Pressing two buttons at the same time will block movement.
+   
+   The movement continues as long as the button is pressed. The second button provides movement in the opposite direction. Pressing two buttons at the same time will block movement.
 
-In the extreme position of the rotary mechanism, limit switches (mechanical, capacitive or other type) are installed; they block movement in corresponding direction after reaching the extreme positions.
+   In the extreme position of the rotary mechanism, limit switches (mechanical, capacitive or other type) are installed; they block movement in corresponding direction after reaching the extreme positions.
 
 ## System parameters:
 * Main controller		– Arduino Uno 
