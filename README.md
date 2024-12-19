@@ -1,5 +1,5 @@
 # WirelessMotorControl
-Wireless Motor Control System for turning security cameras, opening gates, blinds or solar panels
+[Wireless Motor Control System](https://techi-news.com/Projects/Wireless-Motor-Control-System) for turning security cameras, opening gates, blinds or solar panels
 
 Using infrared receivers and a control panel, it is necessary to provide remote control of electrical equipment control functions. 
 
